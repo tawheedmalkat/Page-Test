@@ -1,0 +1,66 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e8eaf0;
+  background-image: url('images/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+ 
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 200px auto;
+  background-color: #ffffffcc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.subtitles {
+  display: none;
+  padding-left: 20px;
+}
+
+.subtitles div {
+  margin-bottom: 5px;
+}
+.image-container {
+  width: 100%;
+  height: 100vh; /* 100% من ارتفاع العرض الرؤوس (viewport height) */
+  overflow: hidden; /* للتأكد من عدم تسرب الصورة إلى خارج العناصر الأخرى */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* للحفاظ على نسبة العرض إلى الارتفاع وتغطية الكامل */
+}
+.center-container {
+  text-align: center;
+  position: absolute;
+  bottom: 20px; /* تعديل المسافة الرأسية بين العنوان والأسفل */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 500px;
+}
+
+h1 {
+  color: #971a1a;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
